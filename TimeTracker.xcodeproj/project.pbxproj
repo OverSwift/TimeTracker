@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0ECB101F681E7A00C666AB /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */; };
+		CE0ECB131F681E7A00C666AB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0ECB111F681E7A00C666AB /* MainInterface.storyboard */; };
+		CE0ECB171F681E7A00C666AB /* AddTimeTarck.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE0ECB231F681F3800C666AB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0ECB221F681F3800C666AB /* NotificationCenter.framework */; };
+		CE0ECB261F681F3800C666AB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ECB251F681F3800C666AB /* TodayViewController.swift */; };
+		CE0ECB291F681F3800C666AB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0ECB271F681F3800C666AB /* MainInterface.storyboard */; };
+		CE0ECB2D1F681F3800C666AB /* TotayTracking.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE0ECB201F681F3800C666AB /* TotayTracking.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE2D0C5C1F681DAA00F51A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D0C5B1F681DAA00F51A3C /* AppDelegate.swift */; };
+		CE2D0C611F681DAA00F51A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D0C5F1F681DAA00F51A3C /* Main.storyboard */; };
+		CE2D0C641F681DAA00F51A3C /* TimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE2D0C621F681DAA00F51A3C /* TimeTracker.xcdatamodeld */; };
+		CE2D0C661F681DAA00F51A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2D0C651F681DAA00F51A3C /* Assets.xcassets */; };
+		CE2D0C691F681DAA00F51A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D0C671F681DAA00F51A3C /* LaunchScreen.storyboard */; };
+		CE32511E1F6823F0008463A0 /* TrackingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32511D1F6823F0008463A0 /* TrackingsViewController.swift */; };
+		CE8829D11F68258A004687F8 /* TrackingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8829D01F68258A004687F8 /* TrackingsTableViewController.swift */; };
+		CEBC4C9C1F682F6E001CDF8F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC4C9B1F682F6E001CDF8F /* SettingsViewController.swift */; };
+		CEBC4C9E1F68329D001CDF8F /* DataAceess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC4C9D1F68329D001CDF8F /* DataAceess.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0ECB151F681E7A00C666AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2D0C501F681DAA00F51A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0ECB0C1F681E7A00C666AB;
+			remoteInfo = AddTimeTarck;
+		};
+		CE0ECB2B1F681F3800C666AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2D0C501F681DAA00F51A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0ECB1F1F681F3800C666AB;
+			remoteInfo = TotayTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE0ECB1B1F681E7A00C666AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE0ECB171F681E7A00C666AB /* AddTimeTarck.appex in Embed App Extensions */,
+				CE0ECB2D1F681F3800C666AB /* TotayTracking.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AddTimeTarck.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		CE0ECB121F681E7A00C666AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CE0ECB141F681E7A00C666AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0ECB201F681F3800C666AB /* TotayTracking.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TotayTracking.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0ECB221F681F3800C666AB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		CE0ECB251F681F3800C666AB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		CE0ECB281F681F3800C666AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CE0ECB2A1F681F3800C666AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2D0C581F681DAA00F51A3C /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2D0C5B1F681DAA00F51A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2D0C601F681DAA00F51A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2D0C631F681DAA00F51A3C /* TimeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTracker.xcdatamodel; sourceTree = "<group>"; };
+		CE2D0C651F681DAA00F51A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2D0C681F681DAA00F51A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2D0C6A1F681DAA00F51A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE32511D1F6823F0008463A0 /* TrackingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingsViewController.swift; sourceTree = "<group>"; };
+		CE8829D01F68258A004687F8 /* TrackingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingsTableViewController.swift; sourceTree = "<group>"; };
+		CEBC4C9B1F682F6E001CDF8F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CEBC4C9D1F68329D001CDF8F /* DataAceess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAceess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE0ECB0A1F681E7A00C666AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0ECB1D1F681F3800C666AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0ECB231F681F3800C666AB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2D0C551F681DAA00F51A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE0ECB0E1F681E7A00C666AB /* AddTimeTarck */ = {
+			isa = PBXGroup;
+			children = (
+				CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */,
+				CE0ECB111F681E7A00C666AB /* MainInterface.storyboard */,
+				CE0ECB141F681E7A00C666AB /* Info.plist */,
+			);
+			path = AddTimeTarck;
+			sourceTree = "<group>";
+		};
+		CE0ECB211F681F3800C666AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0ECB221F681F3800C666AB /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0ECB241F681F3800C666AB /* TotayTracking */ = {
+			isa = PBXGroup;
+			children = (
+				CE0ECB251F681F3800C666AB /* TodayViewController.swift */,
+				CE0ECB271F681F3800C666AB /* MainInterface.storyboard */,
+				CE0ECB2A1F681F3800C666AB /* Info.plist */,
+			);
+			path = TotayTracking;
+			sourceTree = "<group>";
+		};
+		CE0ECB311F68231800C666AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE32511C1F6823C2008463A0 /* Model */,
+				CE0ECB321F68231800C666AB /* ViewControllers */,
+				CE0ECB331F68231800C666AB /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE0ECB321F68231800C666AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC4C9A1F682F5E001CDF8F /* Settings */,
+				CE32511D1F6823F0008463A0 /* TrackingsViewController.swift */,
+				CE8829D01F68258A004687F8 /* TrackingsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE0ECB331F68231800C666AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8829D21F6825CB004687F8 /* TableCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE2D0C4F1F681DAA00F51A3C = {
+			isa = PBXGroup;
+			children = (
+				CE2D0C5A1F681DAA00F51A3C /* TimeTracker */,
+				CE0ECB0E1F681E7A00C666AB /* AddTimeTarck */,
+				CE0ECB241F681F3800C666AB /* TotayTracking */,
+				CE0ECB211F681F3800C666AB /* Frameworks */,
+				CE2D0C591F681DAA00F51A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2D0C591F681DAA00F51A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D0C581F681DAA00F51A3C /* TimeTracker.app */,
+				CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */,
+				CE0ECB201F681F3800C666AB /* TotayTracking.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2D0C5A1F681DAA00F51A3C /* TimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CE0ECB311F68231800C666AB /* Classes */,
+				CE2D0C5B1F681DAA00F51A3C /* AppDelegate.swift */,
+				CE2D0C5F1F681DAA00F51A3C /* Main.storyboard */,
+				CE2D0C651F681DAA00F51A3C /* Assets.xcassets */,
+				CE2D0C671F681DAA00F51A3C /* LaunchScreen.storyboard */,
+				CE2D0C6A1F681DAA00F51A3C /* Info.plist */,
+				CE2D0C621F681DAA00F51A3C /* TimeTracker.xcdatamodeld */,
+			);
+			path = TimeTracker;
+			sourceTree = "<group>";
+		};
+		CE32511C1F6823C2008463A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC4C9D1F68329D001CDF8F /* DataAceess.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8829D21F6825CB004687F8 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		CEBC4C9A1F682F5E001CDF8F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC4C9B1F682F6E001CDF8F /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE0ECB0C1F681E7A00C666AB /* AddTimeTarck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0ECB1A1F681E7A00C666AB /* Build configuration list for PBXNativeTarget "AddTimeTarck" */;
+			buildPhases = (
+				CE0ECB091F681E7A00C666AB /* Sources */,
+				CE0ECB0A1F681E7A00C666AB /* Frameworks */,
+				CE0ECB0B1F681E7A00C666AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddTimeTarck;
+			productName = AddTimeTarck;
+			productReference = CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CE0ECB1F1F681F3800C666AB /* TotayTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0ECB2E1F681F3800C666AB /* Build configuration list for PBXNativeTarget "TotayTracking" */;
+			buildPhases = (
+				CE0ECB1C1F681F3800C666AB /* Sources */,
+				CE0ECB1D1F681F3800C666AB /* Frameworks */,
+				CE0ECB1E1F681F3800C666AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TotayTracking;
+			productName = TotayTracking;
+			productReference = CE0ECB201F681F3800C666AB /* TotayTracking.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CE2D0C571F681DAA00F51A3C /* TimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2D0C6D1F681DAA00F51A3C /* Build configuration list for PBXNativeTarget "TimeTracker" */;
+			buildPhases = (
+				CE2D0C541F681DAA00F51A3C /* Sources */,
+				CE2D0C551F681DAA00F51A3C /* Frameworks */,
+				CE2D0C561F681DAA00F51A3C /* Resources */,
+				CE0ECB1B1F681E7A00C666AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0ECB161F681E7A00C666AB /* PBXTargetDependency */,
+				CE0ECB2C1F681F3800C666AB /* PBXTargetDependency */,
+			);
+			name = TimeTracker;
+			productName = TimeTracker;
+			productReference = CE2D0C581F681DAA00F51A3C /* TimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2D0C501F681DAA00F51A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sergiy Loza";
+				TargetAttributes = {
+					CE0ECB0C1F681E7A00C666AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B6QX958JER;
+						ProvisioningStyle = Automatic;
+					};
+					CE0ECB1F1F681F3800C666AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B6QX958JER;
+						ProvisioningStyle = Automatic;
+					};
+					CE2D0C571F681DAA00F51A3C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B6QX958JER;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE2D0C531F681DAA00F51A3C /* Build configuration list for PBXProject "TimeTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2D0C4F1F681DAA00F51A3C;
+			productRefGroup = CE2D0C591F681DAA00F51A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2D0C571F681DAA00F51A3C /* TimeTracker */,
+				CE0ECB0C1F681E7A00C666AB /* AddTimeTarck */,
+				CE0ECB1F1F681F3800C666AB /* TotayTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE0ECB0B1F681E7A00C666AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0ECB131F681E7A00C666AB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0ECB1E1F681F3800C666AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0ECB291F681F3800C666AB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2D0C561F681DAA00F51A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2D0C691F681DAA00F51A3C /* LaunchScreen.storyboard in Resources */,
+				CE2D0C661F681DAA00F51A3C /* Assets.xcassets in Resources */,
+				CE2D0C611F681DAA00F51A3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0ECB091F681E7A00C666AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0ECB101F681E7A00C666AB /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0ECB1C1F681F3800C666AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0ECB261F681F3800C666AB /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2D0C541F681DAA00F51A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2D0C5C1F681DAA00F51A3C /* AppDelegate.swift in Sources */,
+				CE2D0C641F681DAA00F51A3C /* TimeTracker.xcdatamodeld in Sources */,
+				CE8829D11F68258A004687F8 /* TrackingsTableViewController.swift in Sources */,
+				CEBC4C9C1F682F6E001CDF8F /* SettingsViewController.swift in Sources */,
+				CE32511E1F6823F0008463A0 /* TrackingsViewController.swift in Sources */,
+				CEBC4C9E1F68329D001CDF8F /* DataAceess.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0ECB161F681E7A00C666AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0ECB0C1F681E7A00C666AB /* AddTimeTarck */;
+			targetProxy = CE0ECB151F681E7A00C666AB /* PBXContainerItemProxy */;
+		};
+		CE0ECB2C1F681F3800C666AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0ECB1F1F681F3800C666AB /* TotayTracking */;
+			targetProxy = CE0ECB2B1F681F3800C666AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE0ECB111F681E7A00C666AB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0ECB121F681E7A00C666AB /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		CE0ECB271F681F3800C666AB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0ECB281F681F3800C666AB /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2D0C5F1F681DAA00F51A3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2D0C601F681DAA00F51A3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2D0C671F681DAA00F51A3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2D0C681F681DAA00F51A3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0ECB181F681E7A00C666AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B6QX958JER;
+				INFOPLIST_FILE = AddTimeTarck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker.AddTimeTarck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE0ECB191F681E7A00C666AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B6QX958JER;
+				INFOPLIST_FILE = AddTimeTarck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker.AddTimeTarck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE0ECB2F1F681F3800C666AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B6QX958JER;
+				INFOPLIST_FILE = TotayTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker.TotayTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE0ECB301F681F3800C666AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B6QX958JER;
+				INFOPLIST_FILE = TotayTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker.TotayTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE2D0C6B1F681DAA00F51A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2D0C6C1F681DAA00F51A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2D0C6E1F681DAA00F51A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6QX958JER;
+				INFOPLIST_FILE = TimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE2D0C6F1F681DAA00F51A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6QX958JER;
+				INFOPLIST_FILE = TimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0ECB1A1F681E7A00C666AB /* Build configuration list for PBXNativeTarget "AddTimeTarck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0ECB181F681E7A00C666AB /* Debug */,
+				CE0ECB191F681E7A00C666AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0ECB2E1F681F3800C666AB /* Build configuration list for PBXNativeTarget "TotayTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0ECB2F1F681F3800C666AB /* Debug */,
+				CE0ECB301F681F3800C666AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2D0C531F681DAA00F51A3C /* Build configuration list for PBXProject "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2D0C6B1F681DAA00F51A3C /* Debug */,
+				CE2D0C6C1F681DAA00F51A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2D0C6D1F681DAA00F51A3C /* Build configuration list for PBXNativeTarget "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2D0C6E1F681DAA00F51A3C /* Debug */,
+				CE2D0C6F1F681DAA00F51A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE2D0C621F681DAA00F51A3C /* TimeTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE2D0C631F681DAA00F51A3C /* TimeTracker.xcdatamodel */,
+			);
+			currentVersion = CE2D0C631F681DAA00F51A3C /* TimeTracker.xcdatamodel */;
+			path = TimeTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE2D0C501F681DAA00F51A3C /* Project object */;
+}
