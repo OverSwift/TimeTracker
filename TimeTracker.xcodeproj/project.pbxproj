@@ -50,9 +50,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		CE0ECB121F681E7A00C666AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		CE0ECB141F681E7A00C666AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0ECB201F681F3800C666AB /* TotayTracking.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TotayTracking.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0ECB221F681F3800C666AB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		CE0ECB251F681F3800C666AB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -93,16 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE0ECB0E1F681E7A00C666AB /* AddTimeTarck */ = {
-			isa = PBXGroup;
-			children = (
-				CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */,
-				CE0ECB111F681E7A00C666AB /* MainInterface.storyboard */,
-				CE0ECB141F681E7A00C666AB /* Info.plist */,
-			);
-			path = AddTimeTarck;
-			sourceTree = "<group>";
-		};
 		CE0ECB211F681F3800C666AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				CE2D0C5A1F681DAA00F51A3C /* TimeTracker */,
-				CE0ECB0E1F681E7A00C666AB /* AddTimeTarck */,
 				CE0ECB241F681F3800C666AB /* TotayTracking */,
 				CE0ECB211F681F3800C666AB /* Frameworks */,
 				CE2D0C591F681DAA00F51A3C /* Products */,
@@ -346,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE0ECB111F681E7A00C666AB /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE0ECB121F681E7A00C666AB /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 		CE0ECB271F681F3800C666AB /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
