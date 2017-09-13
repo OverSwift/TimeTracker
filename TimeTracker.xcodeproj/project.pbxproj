@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0ECB101F681E7A00C666AB /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */; };
-		CE0ECB131F681E7A00C666AB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0ECB111F681E7A00C666AB /* MainInterface.storyboard */; };
-		CE0ECB171F681E7A00C666AB /* AddTimeTarck.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE0ECB231F681F3800C666AB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0ECB221F681F3800C666AB /* NotificationCenter.framework */; };
 		CE0ECB261F681F3800C666AB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ECB251F681F3800C666AB /* TodayViewController.swift */; };
 		CE0ECB291F681F3800C666AB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0ECB271F681F3800C666AB /* MainInterface.storyboard */; };
@@ -21,18 +18,14 @@
 		CE2D0C691F681DAA00F51A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D0C671F681DAA00F51A3C /* LaunchScreen.storyboard */; };
 		CE32511E1F6823F0008463A0 /* TrackingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32511D1F6823F0008463A0 /* TrackingsViewController.swift */; };
 		CE8829D11F68258A004687F8 /* TrackingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8829D01F68258A004687F8 /* TrackingsTableViewController.swift */; };
+		CE9FCEFF1F696B43006E1C1D /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FCEFE1F696B43006E1C1D /* ProjectsTableViewController.swift */; };
 		CEBC4C9C1F682F6E001CDF8F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC4C9B1F682F6E001CDF8F /* SettingsViewController.swift */; };
 		CEBC4C9E1F68329D001CDF8F /* DataAceess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC4C9D1F68329D001CDF8F /* DataAceess.swift */; };
+		CED929281F684915009F1107 /* ManagersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED929271F684915009F1107 /* ManagersTableViewController.swift */; };
+		CED9292A1F6938AF009F1107 /* CreateManagerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED929291F6938AF009F1107 /* CreateManagerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE0ECB151F681E7A00C666AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE2D0C501F681DAA00F51A3C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE0ECB0C1F681E7A00C666AB;
-			remoteInfo = AddTimeTarck;
-		};
 		CE0ECB2B1F681F3800C666AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE2D0C501F681DAA00F51A3C /* Project object */;
@@ -49,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CE0ECB171F681E7A00C666AB /* AddTimeTarck.appex in Embed App Extensions */,
 				CE0ECB2D1F681F3800C666AB /* TotayTracking.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -58,7 +50,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AddTimeTarck.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0ECB0F1F681E7A00C666AB /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		CE0ECB121F681E7A00C666AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		CE0ECB141F681E7A00C666AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,18 +67,14 @@
 		CE2D0C6A1F681DAA00F51A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE32511D1F6823F0008463A0 /* TrackingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingsViewController.swift; sourceTree = "<group>"; };
 		CE8829D01F68258A004687F8 /* TrackingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingsTableViewController.swift; sourceTree = "<group>"; };
+		CE9FCEFE1F696B43006E1C1D /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
 		CEBC4C9B1F682F6E001CDF8F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CEBC4C9D1F68329D001CDF8F /* DataAceess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAceess.swift; sourceTree = "<group>"; };
+		CED929271F684915009F1107 /* ManagersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagersTableViewController.swift; sourceTree = "<group>"; };
+		CED929291F6938AF009F1107 /* CreateManagerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateManagerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE0ECB0A1F681E7A00C666AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE0ECB1D1F681F3800C666AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				CE2D0C581F681DAA00F51A3C /* TimeTracker.app */,
-				CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */,
 				CE0ECB201F681F3800C666AB /* TotayTracking.appex */,
 			);
 			name = Products;
@@ -216,6 +202,9 @@
 			isa = PBXGroup;
 			children = (
 				CEBC4C9B1F682F6E001CDF8F /* SettingsViewController.swift */,
+				CED929271F684915009F1107 /* ManagersTableViewController.swift */,
+				CED929291F6938AF009F1107 /* CreateManagerTableViewController.swift */,
+				CE9FCEFE1F696B43006E1C1D /* ProjectsTableViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -223,23 +212,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE0ECB0C1F681E7A00C666AB /* AddTimeTarck */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE0ECB1A1F681E7A00C666AB /* Build configuration list for PBXNativeTarget "AddTimeTarck" */;
-			buildPhases = (
-				CE0ECB091F681E7A00C666AB /* Sources */,
-				CE0ECB0A1F681E7A00C666AB /* Frameworks */,
-				CE0ECB0B1F681E7A00C666AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AddTimeTarck;
-			productName = AddTimeTarck;
-			productReference = CE0ECB0D1F681E7A00C666AB /* AddTimeTarck.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		CE0ECB1F1F681F3800C666AB /* TotayTracking */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE0ECB2E1F681F3800C666AB /* Build configuration list for PBXNativeTarget "TotayTracking" */;
@@ -269,7 +241,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				CE0ECB161F681E7A00C666AB /* PBXTargetDependency */,
 				CE0ECB2C1F681F3800C666AB /* PBXTargetDependency */,
 			);
 			name = TimeTracker;
@@ -287,11 +258,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Sergiy Loza";
 				TargetAttributes = {
-					CE0ECB0C1F681E7A00C666AB = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = B6QX958JER;
-						ProvisioningStyle = Automatic;
-					};
 					CE0ECB1F1F681F3800C666AB = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = B6QX958JER;
@@ -318,21 +284,12 @@
 			projectRoot = "";
 			targets = (
 				CE2D0C571F681DAA00F51A3C /* TimeTracker */,
-				CE0ECB0C1F681E7A00C666AB /* AddTimeTarck */,
 				CE0ECB1F1F681F3800C666AB /* TotayTracking */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE0ECB0B1F681E7A00C666AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE0ECB131F681E7A00C666AB /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE0ECB1E1F681F3800C666AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,14 +311,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE0ECB091F681E7A00C666AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE0ECB101F681E7A00C666AB /* ActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CE0ECB1C1F681F3800C666AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,23 +323,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED929281F684915009F1107 /* ManagersTableViewController.swift in Sources */,
 				CE2D0C5C1F681DAA00F51A3C /* AppDelegate.swift in Sources */,
+				CE9FCEFF1F696B43006E1C1D /* ProjectsTableViewController.swift in Sources */,
 				CE2D0C641F681DAA00F51A3C /* TimeTracker.xcdatamodeld in Sources */,
 				CE8829D11F68258A004687F8 /* TrackingsTableViewController.swift in Sources */,
 				CEBC4C9C1F682F6E001CDF8F /* SettingsViewController.swift in Sources */,
 				CE32511E1F6823F0008463A0 /* TrackingsViewController.swift in Sources */,
 				CEBC4C9E1F68329D001CDF8F /* DataAceess.swift in Sources */,
+				CED9292A1F6938AF009F1107 /* CreateManagerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE0ECB161F681E7A00C666AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE0ECB0C1F681E7A00C666AB /* AddTimeTarck */;
-			targetProxy = CE0ECB151F681E7A00C666AB /* PBXContainerItemProxy */;
-		};
 		CE0ECB2C1F681F3800C666AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE0ECB1F1F681F3800C666AB /* TotayTracking */;
@@ -434,32 +381,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE0ECB181F681E7A00C666AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = B6QX958JER;
-				INFOPLIST_FILE = AddTimeTarck/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker.AddTimeTarck;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		CE0ECB191F681E7A00C666AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = B6QX958JER;
-				INFOPLIST_FILE = AddTimeTarck/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sm.private.TimeTracker.AddTimeTarck;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		CE0ECB2F1F681F3800C666AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -612,15 +533,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE0ECB1A1F681E7A00C666AB /* Build configuration list for PBXNativeTarget "AddTimeTarck" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE0ECB181F681E7A00C666AB /* Debug */,
-				CE0ECB191F681E7A00C666AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CE0ECB2E1F681F3800C666AB /* Build configuration list for PBXNativeTarget "TotayTracking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -42,12 +42,24 @@ class TrackingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let managers = database.managers()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        managers.forEach { (manager) in
-            print("Found manager \(manager.firstName)")
+        if segue.identifier == "createTrack" {
+            segue.destination.modalPresentationStyle = .popover
+            segue.destination.popoverPresentationController?.delegate = self
         }
-        
-        // Do any additional setup after loading the view.
+    }
+}
+
+extension TrackingsViewController: UIPopoverPresentationControllerDelegate {
+    
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
+    }
+    
+    func adaptivePresentationStyle(for controller: UIPresentationController, traitCollection: UITraitCollection) -> UIModalPresentationStyle {
+        return .none
     }
 }

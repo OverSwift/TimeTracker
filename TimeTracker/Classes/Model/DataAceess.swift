@@ -14,11 +14,35 @@ let database = DataAceess()
 
 class DataAceess: NSObject {
 
-    func createManager() {
+    func createManager(with firstName:String, and lastName:String) {
+        
         let manager = Manager(context: persistentContainer.viewContext)
-        manager.firstName = "Anastasia"
-        manager.lastName = "Sirenko"
+        manager.firstName = firstName
+        manager.lastName = lastName
         saveContext()
+    }
+    
+    func delete(manager: Manager) {
+        manager.managedObjectContext?.delete(manager)
+    }
+    
+    func createManagersController() -> NSFetchedResultsController<Manager> {
+        let request = Manager.fetchRequest() as NSFetchRequest<Manager>
+        request.sortDescriptors = [NSSortDescriptor(key: #keyPath(Manager.firstName), ascending: true)]
+        let controller = NSFetchedResultsController(fetchRequest: request, managedObjectContext: persistentContainer.viewContext, sectionNameKeyPath: nil, cacheName: nil)
+        return controller
+    }
+    
+    func getManagers(callback: @escaping ((_ managers:[Manager]) -> ())) {
+        let request = Manager.fetchRequest() as NSFetchRequest<Manager>
+        persistentContainer.viewContext.performAndWait {
+            do {
+                let result = try request.execute()
+                callback(result)
+            } catch let error as NSError {
+                
+            }
+        }
     }
     
     func managers() -> [Manager] {
@@ -35,7 +59,7 @@ class DataAceess: NSObject {
         return result
     }
     
-    lazy var persistentContainer: NSPersistentContainer = {
+    fileprivate lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
          creates and returns a container, having loaded the store for the
@@ -76,5 +100,26 @@ class DataAceess: NSObject {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+}
+
+extension DataAceess {
+    
+    func createProject(with name: String, and manager: Manager) {
+        let project = Project(context: persistentContainer.viewContext)
+        project.name = name
+        project.manager = manager
+        saveContext()
+    }
+    
+    func createProjectsFetchController() ->  NSFetchedResultsController<Project> {
+        let request = Project.fetchRequest() as NSFetchRequest<Project>
+        request.sortDescriptors = [NSSortDescriptor(key: #keyPath(Project.name), ascending: true)]
+        let controller = NSFetchedResultsController(fetchRequest: request, managedObjectContext: persistentContainer.viewContext, sectionNameKeyPath: nil, cacheName: nil)
+        return controller
+    }
+    
+    func delete(project: Project) {
+        project.managedObjectContext?.delete(project)
     }
 }
